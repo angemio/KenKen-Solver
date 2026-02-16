@@ -31,29 +31,31 @@ def solve(row, col):
         if solve(next_row, next_col): return True
         grid[row][col] = 0 # Backtrack
 
-==================================================================================================================
+```
 ## 🛠️ Installation & Usage
 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/angemio/KenKen-Solver.git](https://github.com/angemio/KenKen-Solver.git)
    cd KenKen-Solver
+   ```
 
 2. **Run the game:**
     
     No external libraries required
 ```bash
 python kenken.py
-==================================================================================================================
+```
+
 📂 Project Structure
 
 kenken.py: Contains the main logic, UI rendering, and the Backtracking engine.
 
 README.md: Project documentation.
-==================================================================================================================
+
+
 👤 Author 
 
 Angel De la Rosa
 
 Software Engineering Student @ INTEC
-==================================================================================================================
